@@ -70,7 +70,7 @@ class App extends Component {
                 );
 
             case false:
-              //  console.log("sup!");
+                console.log("sup!");
                 return ( <Router/>);
             default:
                 return <Spinner size = 'large'/>;
